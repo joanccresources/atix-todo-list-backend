@@ -8,9 +8,9 @@ const loginUser = async (req: Request, res: Response): Promise<void> => {
   res.status(status).json(restResult);
 };
 
-const validateToken = async (req: Request, res: Response): Promise<void> => {
-  const request = req.body as RequestValidateToken;
-  const { status, ...restResult } = await authService.validateToken(request);
+const validateToken = async (req: Request, res: Response): Promise<void> => {  
+  const { status, ...restResult } = await authService.validateToken(req.auth!);
+  console.log(restResult);
   res.status(status).json(restResult);
 };
 
