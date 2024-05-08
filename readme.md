@@ -14,6 +14,9 @@ Esta es una API de Tasks desarrollada en Node.js con TypeScript. Utiliza Express
 3. Crea un archivo `.env` en la raíz del proyecto y configura las variables de entorno necesarias (ver sección Variables de Entorno)
 4. Ejecuta el servidor en modo de desarrollo: `npm run dev`
 
+## Postman
+[Este link](https://www.postman.com/interstellar-spaceship-130611/workspace/atix-todo-list-api)
+
 ## Uso
 
 ### Endpoints
